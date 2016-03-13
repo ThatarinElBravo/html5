@@ -1,0 +1,31 @@
+#logoSO{
+	float: left;
+	margin: 5px 5px 0 -150px;
+}
+#pc13{
+	margin: 10px 11px 10px 10px;
+}
+#observaciones{
+	margin: 10px 10px 10px 10px;
+}
+#observaciones textarea{
+	margin: 13px 0 0 12px;
+}
+#divEnviar{
+	margin: 10px 0;
+}
+#divCerrar{
+	width: 33px;
+	height: 18px;
+	margin: 10px 0 -40px 0;
+	position: relative;
+	top: 78px;
+	left: 1115px;
+}
+.ordenador textarea, .ordenador p{
+	margin: 12px 0 6px 10px;
+}
+.ordenadores{
+	width: 1040px;
+	margin: 10px 0 0 -10px;
+}

@@ -1,0 +1,57 @@
+#logoSO{
+	float: left;
+	margin: 5px 5px 0 -150px;
+}
+#pc10, #pc11, #pc12{
+	float: right;
+}
+#pc3, #pc2{
+	margin: 10px 1000px 10px 10px;	
+}
+#pc1{
+	margin: 10px 62px 10px 10px;	
+}
+#puerta{
+	border: 1px dashed #000000;
+	width: 30px;
+	height: 230px;
+	top: 760px;
+	left: 270px;
+	position: relative;
+	z-index: 1;
+}
+#puerta span{
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+#pizarra{
+	border: 1px dashed #000000;
+	width: 30px;
+	height: 730px;
+	top: 28px;
+	position: relative;
+	left: 1575px;
+}
+#pizarra span{
+	position: absolute;
+	top: 300px;
+	left: 10px;
+}
+#divEnviar{
+	margin: 10px 0;
+}
+#divCerrar{
+	width: 33px;
+	height: 18px;
+	margin: 10px 0 -40px 0;
+	position: relative;
+	top: 78px;
+	left: 1115px;
+}
+.ordenador textarea, .ordenador p{
+	margin: 12px 0 6px 10px;
+}
+.ordenadores{
+	margin: 10px 0 0 -145px;
+}

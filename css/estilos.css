@@ -1,0 +1,65 @@
+/*Index.php*/
+#login{
+	width: 240px;
+	height: 100%;
+	border: 1px dotted #000000;
+	margin: auto;
+	text-align: center;
+}
+#login input, select{
+	margin-bottom: 5px;
+}
+#logo{
+	margin: auto;
+	margin-top: 200px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+/*Aulas*/
+.ordenadores{
+	width: 1565px;
+	margin: 10px 0 0 -90px;
+}
+.pie{
+	float: left;
+	clear: both;
+	margin: 10px 0 10px 90px;
+}
+.pie p {
+	text-align: center;
+}
+hr{
+	width: 1000px;
+}
+/*Administración*/
+#logoAdministracion{
+	float: left;
+	margin: 5px 5px 0 -150px;
+}
+#zonaBusqueda{
+	display: none;
+}
+#zonaHistorico{
+	display: none;
+}
+#zonaIncidencias{
+	display: none;
+}
+#divCerrar{
+	float: left;
+	margin: -50px 0 0 550px;
+}
+#accionAdministradorSeleccionada{
+	margin: -12px 0 0 0;
+}
+.alert{
+	display: none;
+	width: 180px;
+}
+.alert p{
+	text-align: center;
+	padding: 0 0 0 10px;
+}
+.alertWarning{
+	width: 472px;
+}

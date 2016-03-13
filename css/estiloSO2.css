@@ -1,0 +1,49 @@
+#logoSO{
+	float: left;
+	margin: 5px 5px 0 -150px;
+}
+#pc5, #pc4{
+	float: right;
+	margin: 10px 10px 10px 1211px;
+}
+#pc3{
+	float: right;
+}
+#pc15, #pc14, #pc13, #pc12, #pc11, #pc10, #pc9, #pc8, #pc7, #pc6{
+	width: 150px;
+}
+#pc2{
+	margin: 10px 10px 10px 650px;
+}
+#despacho{
+	border: 1px dashed #000000;
+	width: 300px;
+	height: 530px;
+	top: 460px;
+	left: 9px;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+#despacho span{
+	position: relative;
+	left: 20px;
+}
+#divEnviar{
+	margin: 10px 0;
+}
+#divCerrar{
+	width: 33px;
+	height: 18px;
+	margin: 10px 0 -40px 0;
+	position: relative;
+	top: 78px;
+	left: 1115px;
+}
+.ordenador textarea, .ordenador p{
+	margin: 12px 0 6px 10px;
+}
+.ordenadores{
+	width: 1700px;
+	margin: 10px 0 0 -280px;
+}

@@ -1,0 +1,39 @@
+.ordenador{
+	width: 240px;
+	height: 230px;
+	background: #ffffff;
+	margin: 10px;
+	float: left;
+}
+.observaciones{
+	width: 569px;
+	height: 230px;
+	background: #ffffff;
+	margin: 10px 149px 10px 10px;
+	float: right;
+}
+.sombraOrdenador{
+	position: relative;       
+	-webkit-box-shadow: 0 0px 4px #777777, 0 0 20px #cccccc inset;
+	-moz-box-shadow: 0 0px 4px #777777, 0 0 20px #cccccc inset;
+	box-shadow: 0 0px 4px #777777, 0 0 20px #cccccc inset;
+}
+.sombraOrdenador:before, .sombraOrdenador:after{
+	/* no aplica contenidos */
+	content: "";
+    position: absolute; 
+	/* posiciona la sombra por detras de la caja */
+    z-index: -1;
+	/* aplica una sombra centrada con un gris oscuro y 20px de difuminado */
+    -webkit-box-shadow: 0 0 20px #777777;
+    -moz-box-shadow: 0 0 20px #777777;
+    box-shadow: 0 0 20px #777777;
+	/* centra verticalmente y separa la sombra de los bordes izquierdo y derecho */
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+	/* redondea las esquinas de la sombra */
+    -moz-border-radius: 100px / 10px;
+    border-radius: 100px / 10px;
+}
